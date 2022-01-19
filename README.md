@@ -12,4 +12,16 @@ Se ha creado una carpeta de nombre "lista_tareas" en la carpeta "odoo14-custom-a
 
 ![Estructura de archivos](/img/estructura.png)
 
+Luego lo he subido a la rama devel1 de mi repositorio de Github
+
+![Rama devel1](/img/devel1branch.png)
+
+He excluido algunos ficheros y archivos que no son necesarios o pueden contener datos sensibles en el archivo .gitignore
+
+![Archivo .gitignore](/img/gitignore.png)
+
+## Visual Studio Code
+
+Con la herramienta VS Code accedo a los archivos del módulo para poder trabajar comodamente
+
 
