@@ -1,35 +1,30 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "lista_tareas",
-
-    'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
-
-    'description': """
-        Long description of module's purpose
-    """,
-
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
-
-    # Categories can be used to filter modules in modules listing
-    # Check https://github.com/odoo/odoo/blob/14.0/odoo/addons/base/data/ir_module_category_data.xml
-    # for the full list
-    'category': 'Uncategorized',
-    'version': '0.1',
-
-    # any module necessary for this one to work correctly
-    'depends': ['base'],
-
-    # always loaded
-    'data': [
-        # 'security/ir.model.access.csv',
-        'views/views.xml',
-        'views/templates.xml',
-    ],
-    # only loaded in demonstration mode
-    'demo': [
-        'demo/demo.xml',
-    ],
+'name': "Lista de tareas",
+'summary': """
+Sencilla Lista de tareas""",
+'description': """
+Sencilla lista de tareas utilizadas para crear un nuevo módulo con un nuevo
+modelo de datos""",
+'author': "Sergi García",
+'website': "https://apuntesfpinformatica.es",
+#Indicamos que es una aplicación
+'application': True,
+# En la siguiente URL se indica qué categorías pueden usarse
+#
+https://github.com/odoo/odoo/blob/14.0/odoo/addons/base/data/ir_module_category_data.x
+ml
+# Vamos a utilizar la categoría Productivity
+'category': 'Productivity',
+'version': '0.1',
+# Indicamos lista de módulos necesarios para que este funcione correctamente
+# En este ejemplo solo depende del módulo "base"
+'depends': ['base'],
+# Esto siempre se carga
+'data': [
+#Este primero indica la politica de acceso del módulo
+'security/ir.model.access.csv',
+#Cargamos las vistas y las plantillas
+'views/views.xml',
+]
 }
