@@ -22,11 +22,7 @@ He excluido algunos ficheros y archivos que no son necesarios o pueden contener 
 
 ## Visual Studio Code
 
-<<<<<<< HEAD
 Con la herramienta VS Code accedo a los archivos del módulo para poder trabajar comodamente. Para darle funcionalidad al módulo he modificado los archivos con el código del ejemplo dado en el aula virtual.
-=======
-Con la herramienta VS Code accedo a los archivos del módulo para poder trabajar comodamente. Para darle funcionalidad al módulo he modificado los archivos con el código del ejemplo dado en el aula virtual
->>>>>>> eebebf0ccf91a360a455b464b7eb28e3ddec987a
 
 ## \_\_manifest\_\_.py
 Incluye información como el título, descripción y ficheros a cargar. Odoo Scaffold crea una estructura predeterminada que hay que descomentar para utilizar.
@@ -37,13 +33,11 @@ El modelo de datos y sus campos.
 ## views.xml
 Describe las vistas del módulo.
 
-<<<<<<< HEAD
 ## Vista previa del módulo
 
 ![Archivo .gitignore](/img/MODULOLISTA.png)
 
-=======
->>>>>>> eebebf0ccf91a360a455b464b7eb28e3ddec987a
+
 
 
 
